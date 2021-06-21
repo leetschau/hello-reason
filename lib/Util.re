@@ -1,3 +1,5 @@
+let myAdder = (x, y) => x * 10 + y;
+
 let hello = () =>
   Pastel.(
     <Pastel>

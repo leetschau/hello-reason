@@ -1,7 +1,7 @@
 {
-  "name": "hello-reason",
+  "name": "my-calculator",
   "version": "0.1.0",
-  "description": "Example Reason Esy Project",
+  "description": "A basic Reason Esy Demo Project",
   "license": "MIT",
   "esy": {
     "build": "dune build -p #{self.name}",
@@ -10,7 +10,7 @@
     "release": {
       "rewritePrefix": true,
       "bin": [
-        "Hello"
+        "MyCalc"
       ]
     },
     "buildEnv": {
@@ -18,7 +18,7 @@
     }
   },
   "scripts": {
-    "test": "esy x Hello",
+    "test": "esy x MyCalc",
     "format": "esy dune build @fmt --auto-promote",
     "doc": "esy dune build @doc"
   },

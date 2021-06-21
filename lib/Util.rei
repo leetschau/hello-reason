@@ -1,8 +1,3 @@
-/** Returns a colorful "Hello, World" message.
+let myAdder: (int, int) => int;
 
-    {4 Examples}
-
-    {[
-    print_endline(hello());
-    ]} */
 let hello: unit => string;

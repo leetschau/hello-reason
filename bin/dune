@@ -1,4 +1,4 @@
 (executable
- (name Hello)
- (public_name Hello)
+ (name MyCalc)
+ (public_name MyCalc)
  (libraries console.lib lib))
